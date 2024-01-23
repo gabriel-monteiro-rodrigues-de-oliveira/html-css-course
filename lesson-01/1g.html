@@ -4,6 +4,10 @@
         font-weight: bold;
     }
 
+    a:hover {
+        color: rgb(255, 164, 28);
+    }
+
     .p-product-name {
         font-weight: bold;
         font-size: 30px;
@@ -25,6 +29,16 @@
         font-weight: bold;
         cursor: pointer;
         margin-right: 8px;
+        transition: background-color 0.15s,
+            opacity 0.15s;
+    }
+
+    .button-add-cart:hover {
+        background-color: rgb(239, 202, 16);
+    }
+
+    .button-add-cart:active {
+        opacity: .8;
     }
 
     .button-buy-now {
@@ -37,6 +51,16 @@
         font-size: 14px;
         font-weight: bold;
         cursor: pointer;
+        transition: background-color 0.15s,
+            opacity 0.15s;
+    }
+
+    .button-buy-now:hover {
+        background-color: rgb(208, 134, 22);
+    }
+
+    .button-buy-now:active {
+        opacity: .8;
     }
 
 </style>
